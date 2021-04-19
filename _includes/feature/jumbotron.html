@@ -23,8 +23,8 @@
 {%- endif -%}
 
 {% if jumboId contains '/' %}
-{% assign jumboLink = jumboId %}
-{% assign jumboSrc = jumboId %}
+{% assign jumboLink = jumboId | relative_url %}
+{% assign jumboSrc = jumboId | relative_url %}
 {% else %}
 {% assign jumboLink = '/item.html?id=' | append: jumboId | relative_url %}
 {% assign jumboItem = site.data[site.metadata] | where: "objectid", jumboId | first %}

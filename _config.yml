@@ -18,12 +18,12 @@ source-code: https://github.com/evanwill/mcs-3g-books
 # SITE SETTINGS
 #
 # title of site appears in banner
-title: Good Books
+title: Good Books!
 # tagline, a short phrase that will appear throughout the site in the top banner
 tagline: cataloged by MCS 3rd Grade
 # description appears in meta tags and other locations
 # this description might appear in search result lists, keep around 160 characters max
-description: "A collection of books cataloged by 3rd graders in the classroom."
+description: "A collection of books cataloged by the junior librarians of MCS 3rd grade."
 # creator of the digital collection, to appear in meta tags; we typically use our GitHub usernames but feel free to just use your name
 author: evanwill
 

@@ -10,16 +10,26 @@ credits: true
 
 {% include feature/jumbotron.html %}
 
-{% include feature/nav-menu.html sections="About the Collection;About the About Page" %}
+{% include feature/nav-menu.html sections="About the Collection;Library Links" %}
 
 ## About the Collection
 
-This site is generated using [`collectionbuilder-gh`](https://collectionbuilding.github.io/gh/), a project to create a free and simple digital collection using [GitHub Pages](https://pages.github.com/) from: 
+This collection was created by MCS third graders who cataloged books from their classroom, in collaboration with [a librarian](http://vivo.nkn.uidaho.edu/vivo/individual/n43629). 
 
-- a CSV of collection metadata
-- a folder of JPEG images or PDF documents
+Each student used a [metadata form]({{ '/assets/img/book_metadata.pdf' | relative_url }}) to record information about their chosen book. 
+Some drew a picture to illustrate the story. 
 
-The base site features four objects from the University of Idaho Library's [Digital Collections](https://www.lib.uidaho.edu/digital). 
+These forms were scanned to provide digital images for the collection website. 
 
-<!-- IMPORTANT!!! DELETE this comment and the include below when you are finished editing this page for your collection. The include below introduces about page features. They will show up on your collection's about page until you delete it.  -->
-{% include feature/abouttheabout.md %} 
+{% include feature/image.html src="/assets/img/scanned.png" alt="Flat bed scanner" caption="A flatbed scanner." width="75" %}
+
+Then the book information was transferred into a spreadsheet.
+The spreadsheet is used to build the digital collection website.
+
+{% include feature/image.html src="/assets/img/spreadsheet-mcs.png" alt="spreadsheet cells" caption="A metadata spreadsheet." width="75" %}
+
+## Library Links
+
+- [Moscow Public Library](https://www.latahlibrary.org/), visit the public library to find books! There is a link to search their catalog on each book page.
+- [University of Idaho Library](https://www.lib.uidaho.edu/), come visit us some time!
+- [U of I Library Digital Collections](https://www.lib.uidaho.edu/digital/collections.html), explore our historic collections online!
